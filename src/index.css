@@ -32,6 +32,9 @@ ul {
 img {
   max-width: 100%;
   height: auto;
+  padding: 13px;
+  background: var(--very-dark-blue);
+  border-radius: 50px;
 }
 :root {
   /* Orange */
@@ -47,10 +50,116 @@ img {
   background-color: var(--very-dark-blue);
   width: 100vw;
   height: 100vh;
+
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .container {
   background-color: var(--dark-blue);
+  border-radius: 10px;
+  color: var(--white);
+  padding: 20px;
+  max-width: 35ch;
+  position: static;
+}
+
+.sen2 {
+  font-size: 15px;
+  color: var(--light-grey);
+}
+
+.sen1 {
+  margin-top: 10px;
+}
+
+.num {
+  display: inline-flex;
+  margin: 10px;
+  cursor: pointer;
+  width: max-context;
+  background: var(--very-dark-blue);
+  border-radius: 50%;
+  padding: 10px 15px;
+  width: -40px;
+  /* margin: 10px; */
+  height: 40px;
+}
+
+.num:hover {
+  background: var(--light-grey);
+}
+
+.selected {
+  background: var(--orange);
+  border-radius: 50%;
+  padding: 10px 15px;
+  width: -40px;
+  /* margin: 10px; */
+  height: 40px;
+}
+
+.sub-btn {
+  display: block;
+  margin: auto;
+  width: 250px;
+  border-radius: 20px;
+  padding: 10px;
+  color: var(--white);
+  background: var(--orange);
+  border: none;
+  letter-spacing: 2px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.sub-btn:hover {
+  background: var(--white);
+  color: var(--orange);
+}
+
+.p {
+  color: white;
+}
+
+.page2 {
+  max-width: 375px;
+}
+.phone-icon {
+  background: none;
+  /* display: flex; */
+  /* justify-content: center; */
+  width: 190px;
+  height: 150px;
+  display: block;
+  padding: 30px;
+  margin: 0 auto;
+}
+
+.select-num {
+  color: var(--orange);
+  background: var(--very-dark-blue);
+  text-align: center;
+  border-radius: 20px;
+  padding: 5px 10px;
+  width: max-content;
+  margin: 0 auto;
+
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.thank {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.para {
+  font-size: 15px;
+  text-align: center;
+  margin-top: 20px;
+  color: var(--light-grey);
 }
